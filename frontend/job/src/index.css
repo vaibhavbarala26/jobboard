@@ -1,0 +1,519 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.headcontent{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 10vh;
+}
+.headcontent span{
+  font-size: 4vh;
+  font-weight: 400;
+}
+.headbutton{
+  display: flex;
+  width: 30vh;
+  justify-content: space-around;
+  height: 5vh;
+  gap: 1vh;
+}
+.headbutton button{
+  background-color: #2863eb;
+  border: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: 400;
+  color: aliceblue;
+  padding: 0 2vh;
+}
+#login{
+  background-color: rgb(199, 199, 199);
+  color: black;
+}
+.headbutton button:hover {
+  background-color: #2863eb;
+  cursor: pointer;
+}
+#login:hover{
+  background-color: rgb(111, 110, 110);
+  cursor: pointer;
+}
+.hero{
+  width: 100%;
+  height: 25vh;
+  margin-top: 8vh;
+  display: flex;
+  justify-content: center;
+}
+.Hero{
+  display: flex;
+  width: 50vh;
+  text-align: center;
+  font-weight: bold;
+  font-size: 3vh;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.search{
+  
+  justify-content: center;
+  width: 100%;
+  flex-direction: row;
+}
+.searchbox{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.searchbox input{
+  height: 3.7vh;
+  width: 50vh;
+  @media (max-width:400) {
+    width: 35vw;
+  }
+}
+.searchbox button{
+  margin-left: 2vh;
+  height: 4.5vh;
+  background-color: #2863eb;
+  border: none;
+  padding: 1vh 2vh;
+  color: aliceblue;
+  font-size: 2vh;
+  border-radius: 10px;
+  @media (max-width:400) {
+    font-size: 1vh;
+  }
+}
+.searchbox button:hover{
+  background-color: rgb(9, 63, 111);
+  cursor: pointer;
+}
+.card{
+  display: flex;
+  height: 16vh;
+  background-color: aliceblue;
+  border-radius: 20px;
+  width: 100%;
+  
+}
+.imgdiv img{
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  padding: 0 2vh;
+}
+.imgdiv{
+  display: flex;
+  align-items: center;
+}
+.details{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 2vh;
+
+}
+.name{
+  height: 10vh;
+  display: flex;
+  flex-direction: column;
+  line-height: 3.6vh;
+
+}
+#test{
+  font-weight: bold;
+}
+#info{
+  color: gray;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5vh;
+  line-height: 5vh;
+}
+.jobcar{
+  display: flex;
+  flex-direction: column;  
+  width: 100%;
+  margin-bottom:2vh ;
+}
+.descriptionholder{
+  margin-top: 10vh;
+  background-color: rgb(238, 238, 238);
+  display: flex;
+  justify-content: center;
+  border-radius: 20px;
+}
+.description{
+  width: 60%;
+}
+.bigdiv{
+ 
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.smalldiv{
+  
+  height: 50vh;
+  width: 50vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.smalldiv form{
+  display: flex;
+  flex-direction: column;
+  
+  gap: 2vh;
+}
+.smalldiv input{
+  height: 6vh;
+  width: 40vh;
+  font-size: 3vh;
+  padding: 0 2vh;
+}
+.smalldiv button{
+  width: 45vh;
+  align-items: center;
+  background-color: #2863eb;
+  height: 6vh;
+  border: none;
+  border-radius: 20px;
+}
+.smalldiv button:hover{
+  background-color: #214496;
+  color: aliceblue;
+}
+a{
+  text-decoration: none;
+  color: #2863eb;
+}
+.icon , #info {
+  @media (max-width:800px) {
+    display: none;
+  }
+}
+.iyk{
+  border-radius: 10px;
+  width: 50vh;
+  display: flex;
+  padding: 0 2vh;
+  align-items: center;
+  height: 5vh;
+  background-color: #2863eb;
+  justify-content: space-between;
+  color: aliceblue;
+}
+.iyk:hover{
+  background-color: #1d4ab3;
+  color: black;
+  cursor: pointer;
+}
+.cards{
+  margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  gap:1vh;
+  align-items: center;
+
+}
+.sexy{
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+  flex-direction: column;
+  align-items: center;
+}
+.sexy button{
+  background-color: rgb(211, 216, 216);
+  border: none;
+  height: 5vh;
+  border-radius: 10px;
+  padding: 1vh 2vh;
+  margin-top: 2vh;
+  
+}
+.sexy button:hover{
+  background-color: gray;
+  cursor: pointer;
+}
+.sexy input{
+  height: 4vh;
+  margin-right: 2vh;
+}
+.hot{
+  display: inline;
+}
+.nothot{
+  display: none;
+}
+.main{
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  
+  justify-content: center;
+  @media (max-width:700px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.div{
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  align-items: center;
+  
+}
+.div input{
+  height: 5vh;
+  margin-bottom: 2vh;
+  border-radius: 10px;
+  padding: 0 2vh;
+  width: 60vw;
+  @media (max-width:700px) {
+    width: 50vw;
+  }
+}
+.address{
+  width: 60vw;
+  display: flex;
+  justify-content: space-around;
+  gap: 1vh;
+  
+  align-items: center;
+  
+}
+.sexi{
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  align-items: center;
+}
+.country{
+  
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 2vh;
+}
+.salary{
+  display: flex;
+}
+.ico{
+  border: 2px solid black;
+  border-right: none;
+}
+
+.k{
+  border: 2px solid black;
+  border-left: none;
+  padding-right: 0.5vh;
+}
+
+.descriptions{
+ margin-top: 2vh;
+}
+.fuck {
+  display: flex;
+  gap:2vh;
+  
+  width: 42vw;
+}
+.slarycontainer{
+  display: flex;
+}
+.slarycontainer input{
+  border-left: none;
+  border-right: none;
+}
+.slarycontainer input:focus{
+  outline: none;
+}
+.mainslary{
+  display: flex;
+  align-items: center;
+  width: 55vw;
+  
+}
+.contac{
+  display: flex;
+  align-items: center;
+  width: 55vw;
+}
+.contac input{
+  border: 2px solid black;
+}
+.fucki{
+  width: 32vw;
+  display: flex;
+  justify-content: center;
+}
+.fucku{
+  display: flex;
+  justify-content: center;
+  width: 19vw;
+}
+.main button{
+  background-color: #2863eb;
+  height: 5vh;
+  width: 5vw;
+  font-size: 2.6vh;
+  padding: 1vh 1vh;
+  border: none;
+  color: aliceblue;
+  border-radius: 9px;
+}
+.main button:hover{
+  background-color: #214496;
+  cursor: pointer;
+}
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  cursor: pointer;
+  background-color: #2863eb;
+  color: aliceblue;
+}
+.edit{
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  gap:2vh;
+  color: #2863eb;
+}
+.edit:hover{
+  cursor: pointer;
+}
+.mainapply{
+
+display: flex;
+justify-content: center;
+height: 90vh
+}
+.container{
+  background-color: #2863eb;
+  width: 59vw;
+  padding: 0 2vh;
+  color: aliceblue;
+}
+.apply{
+  
+  display: flex;
+  justify-content: center;
+}
+.apply button{
+  background-color: #214496;
+  color: aliceblue;
+  height: 8vh;
+  width: 12vh;
+  font-size: 3.6vh;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.apply button:hover{
+  background-color: #2863eb;
+}
+.applied{
+  background-color: antiquewhite;
+}
+.applied button{
+  background-color: #2863eb;
+  border: none;
+  border-radius: 10px;
+  font-size: 2vh;
+  font-weight: 400;
+  color: aliceblue;
+  padding: 0 2vh;
+  height: 6vh;
+  cursor: pointer;
+  width: 100%;
+}
+.notsexiest{
+  display: none;
+}
+.jo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color:rgb(235, 240, 240);
+  margin-top: 2vh;
+  padding: 0 2vh;
+  border-radius: 10px;
+}
+.goo{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+  width: 100vw;
+}
+.namie{
+  background-color: #2863eb;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  padding: 1vh 2vh;
+  height: 16vh;
+  justify-content:center;
+}
+.namie button{
+  background-color: aliceblue;
+  border: none;
+  margin-top: 1vh;
+  cursor: pointer;
+}
+.check{
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 2vh;
+}
+.applicants{
+  background-color: rgb(226, 232, 232);
+width: 62vw;
+padding: 0.7vw;
+border-radius: 10px;
+
+}
+.tt{
+  display: flex;
+  flex-direction: column;
+  padding: 0.8vw;
+  
+  gap: 1vh;
+}
+.tt button{
+  height: 3vw;
+  font-size: 1.4vw;
+  color: aliceblue;
+  background-color: #2863eb;
+  border: none;
+  cursor: pointer;
+border-radius: 10px;
+}
